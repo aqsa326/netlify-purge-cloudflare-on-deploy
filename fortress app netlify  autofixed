@@ -1,0 +1,15 @@
+module.exports = {
+  content: ["./**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        fortress: "#0F172A",
+        highlight: "#38BDF8",
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+}
