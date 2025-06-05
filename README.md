@@ -1,4 +1,29 @@
-# netlify-purge-cloudflare-on-deploy
+    # Fortress DNS AI Core — Auto Secure Watchdog
+
+This tool automatically monitors:
+
+- AbuseIPDB blocklist score
+- Name server reachability
+- Cloudflare DNS zone records
+
+## 🔧 Setup
+
+1. Copy `.env.example` → `.env`
+2. Fill in your real API credentials
+
+## ✅ Usage
+
+```bash
+pip install -r requirements.txt
+python dns_watchdog.py
+```
+
+## 🔐 Secrets Required
+
+- `ABUSEIPDB_API_KEY`: [abuseipdb.com](https://www.abuseipdb.com/)
+- `CLOUDFLARE_ZONE_ID`: From your Cloudflare domain settings
+- `CLOUDFLARE_API_TOKEN`: Create token with DNS read permissions
+    # netlify-purge-cloudflare-on-deploy
 Automatically purge Cloudflare cache on Netlify deploy.
 
 ## NOTES:
